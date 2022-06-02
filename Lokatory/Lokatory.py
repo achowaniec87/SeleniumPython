@@ -76,7 +76,7 @@ class sportano:
     checkbox = (By.XPATH, "//*[@class='page-wrapper']//*[@class='gdpr-agreement-input checkbox required']//*[@class='checkbox-label']")
     register = (By.XPATH, "//*[@class='login-container__actions']//*[@type='submit']")
     assert_account = (By.XPATH, "//*[@id='account-nav']//*[text()='Moje konto']")
-
+##
 
 
 class cart_add:

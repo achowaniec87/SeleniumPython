@@ -14,7 +14,7 @@ class TestGoShop(BaseTest):
         my_shopping.open_page()
         my_shopping.shopping(self.test_data.email, self.test_data.hard_password)
         my_shopping.shopping_click()
-        time.sleep(10)
+
 
         assert my_shopping.view_assert()
 

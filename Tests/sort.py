@@ -16,9 +16,9 @@ class TestSort(BaseTest):
         orders_sort.go_shop_orders()
         orders_sort.sort_open()
         orders_sort.my_sort()
-        time.sleep(5)
 
-        assert orders_sort.assert_low
+
+        assert orders_sort.data_assertion()
 
 
 
